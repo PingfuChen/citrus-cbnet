@@ -1,1 +1,6 @@
 # citrus-cbnet
+本代码主要用于保存柑橘青果检测文件，基于mask-rcnn+cbnet算法框架及数据增强，文件格式转换文件。其中.json为图像数据集
+
+json.py是将多个json文件合并为一个json文件
+dataaugment.py是数据增强的代码，可以实现图片和对应的json文件一起增强的功能，具体增强方式请自行编写相应代码
+柑橘青果数据+json是557张青果图片和对应的json文件
